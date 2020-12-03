@@ -1,21 +1,4 @@
 .photo-grid__item {
     min-width: 284px;
-    max-width: 352px;
     width: 100%;
-}
-
-@media screen and (min-width: 320px) {
-   
-}
-
-@media screen and (min-width: 768px) {
-   
-}
-
-@media screen and (min-width: 1024px) {
-   
-}
-
-@media screen and (min-width: 1280px) {
-   
 }
