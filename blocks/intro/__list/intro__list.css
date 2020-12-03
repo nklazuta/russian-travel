@@ -3,6 +3,18 @@
     font-size: 12px;
     line-height: 1.5;
     padding: 0;
-    margin: 33px 0 0;
+    margin: 0;
     list-style: none;
+}
+
+@media screen and (min-width: 320px) {
+    .intro__list {
+        padding-top: 34px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .intro__list {
+        padding-top: 33px;
+    }
 }

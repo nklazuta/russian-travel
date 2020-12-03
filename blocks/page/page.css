@@ -1,9 +1,10 @@
 /* общие стили для страницы: цвет фона, шрифт и отступы */
 
 .page {
-    font-family: 'Inter';
-    margin: 0 auto;
-    background: #2A2C2F;
-    color: #FFFFFF;
+    min-width: 320px;
     max-width: 1280px;
+    margin: 0 auto;
+    font-family: 'Inter';
+    color: #FFFFFF;
+    background-color: #2A2C2F;
 }
