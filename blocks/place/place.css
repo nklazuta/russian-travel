@@ -1,18 +1,13 @@
 .place {
     display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, minmax(min-content, max-content));
+    grid-template-areas:
+    "title"
+    "image"
+    "text";
+    gap: 32px;
     margin: 0 auto;
-}
-
-@media screen and (min-width: 320px) {
-    .place {
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(3, minmax(min-content, max-content));
-        grid-template-areas:
-        "title"
-        "image"
-        "text";
-        row-gap: 32px;
-    }
 }
 
 @media screen and (min-width: 768px) {
